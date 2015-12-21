@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2AA375BC1C25CFC70027460A"
-               BuildableName = "Tap.app"
+               BuildableName = "Shtyp.app"
                BlueprintName = "Tap"
                ReferencedContainer = "container:Tap.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2AA375D01C25CFC70027460A"
-               BuildableName = "TapTests.xctest"
+               BuildableName = "Tap.xctest"
                BlueprintName = "TapTests"
                ReferencedContainer = "container:Tap.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2AA375DB1C25CFC70027460A"
-               BuildableName = "TapUITests.xctest"
+               BuildableName = "Tap.xctest"
                BlueprintName = "TapUITests"
                ReferencedContainer = "container:Tap.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2AA375BC1C25CFC70027460A"
-            BuildableName = "Tap.app"
+            BuildableName = "Shtyp.app"
             BlueprintName = "Tap"
             ReferencedContainer = "container:Tap.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2AA375BC1C25CFC70027460A"
-            BuildableName = "Tap.app"
+            BuildableName = "Shtyp.app"
             BlueprintName = "Tap"
             ReferencedContainer = "container:Tap.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2AA375BC1C25CFC70027460A"
-            BuildableName = "Tap.app"
+            BuildableName = "Shtyp.app"
             BlueprintName = "Tap"
             ReferencedContainer = "container:Tap.xcodeproj">
          </BuildableReference>

@@ -41,10 +41,10 @@
 		2AA375C71C25CFC70027460A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA375CA1C25CFC70027460A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AA375CC1C25CFC70027460A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AA375D11C25CFC70027460A /* TapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA375D11C25CFC70027460A /* Tap.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tap.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA375D51C25CFC70027460A /* TapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTests.swift; sourceTree = "<group>"; };
 		2AA375D71C25CFC70027460A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AA375DC1C25CFC70027460A /* TapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA375DC1C25CFC70027460A /* Tap.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tap.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA375E01C25CFC70027460A /* TapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapUITests.swift; sourceTree = "<group>"; };
 		2AA375E21C25CFC70027460A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				2AA375BD1C25CFC70027460A /* Tap.app */,
-				2AA375D11C25CFC70027460A /* TapTests.xctest */,
-				2AA375DC1C25CFC70027460A /* TapUITests.xctest */,
+				2AA375D11C25CFC70027460A /* Tap.xctest */,
+				2AA375DC1C25CFC70027460A /* Tap.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +160,7 @@
 			);
 			name = TapTests;
 			productName = TapTests;
-			productReference = 2AA375D11C25CFC70027460A /* TapTests.xctest */;
+			productReference = 2AA375D11C25CFC70027460A /* Tap.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2AA375DB1C25CFC70027460A /* TapUITests */ = {
@@ -178,7 +178,7 @@
 			);
 			name = TapUITests;
 			productName = TapUITests;
-			productReference = 2AA375DC1C25CFC70027460A /* TapUITests.xctest */;
+			productReference = 2AA375DC1C25CFC70027460A /* Tap.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -403,7 +403,7 @@
 				INFOPLIST_FILE = Tap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.donisign.Tap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tap;
 			};
 			name = Debug;
 		};
@@ -414,7 +414,7 @@
 				INFOPLIST_FILE = Tap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.donisign.Tap;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tap;
 			};
 			name = Release;
 		};
@@ -425,7 +425,7 @@
 				INFOPLIST_FILE = TapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.donisign.TapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tap;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap.app/Tap";
 			};
 			name = Debug;
@@ -437,7 +437,7 @@
 				INFOPLIST_FILE = TapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.donisign.TapTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tap;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap.app/Tap";
 			};
 			name = Release;
@@ -448,7 +448,7 @@
 				INFOPLIST_FILE = TapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.donisign.TapUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tap;
 				TEST_TARGET_NAME = Tap;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,7 +460,7 @@
 				INFOPLIST_FILE = TapUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.donisign.TapUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tap;
 				TEST_TARGET_NAME = Tap;
 				USES_XCTRUNNER = YES;
 			};
@@ -485,6 +485,7 @@
 				2AA375E71C25CFC70027460A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AA375E81C25CFC70027460A /* Build configuration list for PBXNativeTarget "TapTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +494,7 @@
 				2AA375EA1C25CFC70027460A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AA375EB1C25CFC70027460A /* Build configuration list for PBXNativeTarget "TapUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +503,7 @@
 				2AA375ED1C25CFC70027460A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
